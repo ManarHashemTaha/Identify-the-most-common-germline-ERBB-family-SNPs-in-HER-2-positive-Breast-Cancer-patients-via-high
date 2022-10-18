@@ -5,13 +5,13 @@ Aim : Here we want to identify the most common germline ERBB-family SNPs in HER-
 
 Methods (Sequencing analysis) :
 
-Download two samples whole exome sequencing of Irish HER2+ breast cancer patients from SRA (paired end) Library: Name: SOL6717_R1 (The custom library designed comprised of 132 regions)
-Check QC and Trimming in case of bad quality
-Reads will be aligned with BWA.
-Duplicate reads will be marked by Picard tools
-local realignment and base recalibration will be conducted with GATK
-Joint variant calling using HaplotypeCaller
-Split SNPs and indels
-Assess the different filters in both known and novel to decide the threshould for the filteration in each filter.
-SNP Variant filteration
-separate the passed SNPs in a vcf file
+1-Download two samples whole exome sequencing of Irish HER2+ breast cancer patients from SRA (paired end) Library: Name: SOL6717_R1 (The custom library designed comprised of 132 regions)
+2-Check QC and Trimming in case of bad quality 
+3-Reads will be aligned with BWA.
+4-Duplicate reads will be marked by Picard tools
+5-local realignment and base recalibration will be conducted with GATK
+6-Joint variant calling using HaplotypeCaller
+7-Split SNPs and indels
+8-Assess the different filters in both known and novel to decide the threshould for the filteration in each filter.
+9-SNP Variant filteration
+10-separate the passed SNPs in a vcf file
